@@ -13,7 +13,7 @@ Actually, the "gmx msd" command is much more efficient, and it provides more opt
 The .xtc file should be pre-treated using GROMACS command "gmx trjconv" (http://manual.gromacs.org/documentation/2018/onlinehelp/gmx-trjconv.html), to ensure that:
 - All frames are at the equilibrated simulation state.
 - All molecules remain whole and nojump (it is a continuous trajectory and molecules may diffuse out of the box).
-- Example files are included in the `example-trajectory/` folder.
+Example files are included in the `example-trajectory/` folder.
 
 ## Quick start
 1. Put the .xtc file, the .gro file, and the .tcl script in the same directory.
