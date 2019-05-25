@@ -1,11 +1,13 @@
 # MSD_calculation
-This is a VMD/Tcl script for calculating mean square displacement (MSD) using GROMACS trajectory.
+This VMD/Tcl script provides an alternative to "gmx msd" (a GROMACS command), for calculating mean square displacement (MSD) using GROMACS trajectory.
+Actually, the "gmx msd" command is much more efficient, and it provides more options.
+
 
 # How to use
 
 ## Requirements
 - First, VMD (https://www.ks.uiuc.edu/Research/vmd/) should be installed.
-- Second, a GROMACS molecular structure file (.gro file) and a GROMACS trajectory file (.xtc file) should be prepared for calculation.
+- Second, a GROMACS molecular structure file (.gro file) and a GROMACS trajectory file (.xtc file) should be prepared.
 
 ## Note
 The .xtc file should be pre-treated using GROMACS command "gmx trjconv" (http://manual.gromacs.org/documentation/2018/onlinehelp/gmx-trjconv.html), to ensure that:
