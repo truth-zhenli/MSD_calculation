@@ -14,7 +14,7 @@ The .xtc file should be pre-treated using GROMACS command "gmx trjconv" (http://
 - All frames are at the equilibrated simulation state.
 - All molecules remain whole and nojump (it is a continuous trajectory and molecules may diffuse out of the box).
 
---Example files are included in the `example-trajectory/` folder.
+Example files are included in the `example-trajectory/` folder.
 
 ## Quick start
 1. Put the .xtc file, the .gro file, and the .tcl script in the same directory.
